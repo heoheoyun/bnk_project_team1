@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@ page import="java.sql.*, java.util.*, utill.DBUtill"%>
+    pageEncoding="UTF-8"%>
+<%@ page import="java.sql.*, java.util.*, util.DBaccess"%>
 <%!
     public class ShopOrderSummary {
         private String shopno;
@@ -42,7 +42,7 @@
                      "GROUP BY o.shopno, o.pcode, p.pname " +
                      "ORDER BY o.shopno ASC";
 
-        try (Connection conn = DBUtill.con();
+        try (Connection conn = DBaccess.getConn();
              PreparedStatement pstmt = conn.prepareStatement(sql);
              ResultSet rs = pstmt.executeQuery()) {
 
