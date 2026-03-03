@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page import="java.util.List" %>
-<%-- DTO와 DB 로직이 담긴 파일을 포함합니다 --%>
 <%@ include file="shopOrderSummaryDTO.jsp" %>
 
 <%
