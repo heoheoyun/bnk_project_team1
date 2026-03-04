@@ -31,3 +31,13 @@
             text-align: center;
             padding: 10px;
         }
+        
+        section {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
