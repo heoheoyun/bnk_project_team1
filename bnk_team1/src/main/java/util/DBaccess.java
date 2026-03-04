@@ -13,9 +13,9 @@ public class DBaccess {
 		try {
 			props.load(DBaccess.class.getClassLoader()
 			        .getResourceAsStream("db.properties"));
-			
-			Class.forName(props.getProperty("driver"));
-			conn = DriverManager.getConnection(props.getProperty("url"), props.getProperty("db.user"), props.getProperty("db.pw"));
+
+			Class.forName(props.getProperty("db.driver"));
+			conn = DriverManager.getConnection(props.getProperty("db.url"), props.getProperty("db.user"), props.getProperty("db.pw"));
 		
 		} catch (Exception e) {
 			System.out.println(e);

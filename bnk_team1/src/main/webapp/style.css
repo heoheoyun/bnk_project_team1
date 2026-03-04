@@ -37,7 +37,11 @@
             display: flex;
             justify-content: center;
         }
-
+		h3 {
+		    text-align: center;
+		}
         table {
+        	text-align: center;
             border-collapse: collapse;
+            width: 80%;
         }
