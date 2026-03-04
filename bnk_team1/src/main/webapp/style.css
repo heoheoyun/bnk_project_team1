@@ -1,0 +1,33 @@
+@charset "UTF-8";
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header h1{
+            text-align: center;
+            background-color: blue;
+            color: white;
+            padding: 30px;
+        }
+        nav{
+            background-color: pink;
+            padding: 10px;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+        }
+        nav a{
+            color: purple;        
+        }
+        footer{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
