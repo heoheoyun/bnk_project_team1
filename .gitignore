@@ -3,4 +3,7 @@ build/
 .project
 .classpath
 .settings/
+bnk_team1/src/main/response/
+*.class
 bnk_team1/src/main/resources/db.properties
+
