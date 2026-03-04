@@ -6,7 +6,10 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+<link rel="stylesheet" href="style.css">
 <body>
+<jsp:include page='header.jsp'/>
+<section>
 	<h2>제품 코드 조회</h2>
 	<table>
 		<thead>
@@ -21,7 +24,10 @@
 		
 		<tbody></tbody>
 	</table>
-	
+
+</section>
+
+<jsp:include page="footer.jsp"/>
 	<script>
 		const tbody = document.querySelector('tbody');
 		let tr, td;
