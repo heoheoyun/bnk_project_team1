@@ -1,8 +1,8 @@
 package dto;
 
-public class ProductDTO {
+public class ProductCodeDTO {
 	private String pcode, pname;
-	private int cost, ten, fif;
+	private int price, ten, fif;
 	
 	public String getPcode() {
 		return pcode;
@@ -18,11 +18,11 @@ public class ProductDTO {
 		this.pname = pname;
 	}
 	
-	public int getCost() {
-		return cost;
+	public int getPrice() {
+		return price;
 	}
-	public void setCost(int cost) {
-		this.cost = cost;
+	public void setPrice(int price) {
+		this.price = price;
 	}
 	
 	public int getTen() {
@@ -41,7 +41,7 @@ public class ProductDTO {
 	
 	@Override
 	public String toString() {
-		return "ProductDTO [pcode=" + pcode + ", pname=" + pname + ", cost=" + cost + ", ten=" + ten + ", fif=" + fif
-				+ "]";
-	}	
+		return "ProductCodeDTO [pcode=" + pcode + ", pname=" + pname + ", price=" + price + ", ten=" + ten + ", fif="
+				+ fif + "]";
+	}
 }

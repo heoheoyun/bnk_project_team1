@@ -13,7 +13,6 @@ public class DBaccess {
 		try {
 			props.load(DBaccess.class.getClassLoader()
 			        .getResourceAsStream("db.properties"));
-			
 			Class.forName(props.getProperty("db.driver"));
 			conn = DriverManager.getConnection(props.getProperty("db.url"), props.getProperty("db.user"), props.getProperty("db.pw"));
 		
