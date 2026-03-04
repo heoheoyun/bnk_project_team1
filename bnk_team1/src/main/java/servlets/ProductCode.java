@@ -15,7 +15,7 @@ import java.sql.SQLException;
 public class ProductCode extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
 		response.setCharacterEncoding("UTF-8");
 		response.getWriter().print(new ObjectMapper().writeValueAsString(dao.ProductCodeDAO.getData()));
 	}
