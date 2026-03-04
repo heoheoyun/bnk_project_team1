@@ -25,6 +25,36 @@
 	<script>
 		const tbody = document.querySelector('tbody');
 		let tr, td;
+		fetch('productcode')
+		.then(data => data.json())
+		.then(data =>{
+			data.forEach(e=>{
+				tr = document.createElement('tr');
+				
+				td = document.createElement('td');
+				td.innerHTML = e.pcode;
+				tr.appendChild(td);
+				
+				td = document.createElement('td');
+				td.innerHTML = e.pname;
+				tr.appendChild(td);
+				
+				td = document.createElement('td');
+				td.innerHTML = e.cost;
+				tr.appendChild(td);
+				
+				td = document.createElement('td');
+				td.innerHTML = e.ten;
+				tr.appendChild(td);
+				
+				td = document.createElement('td');
+				td.innerHTML = e.fif;
+				tr.appendChild(td);	
+				
+				tbody.appendChild(tr);
+			})
+ 			
+		})
 	
 	</script>
 </body>
