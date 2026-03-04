@@ -11,10 +11,10 @@
         <h1>할인점 주문프로그램 ver 1.0</h1>
         <nav>
             <ul>
-                <li><a href="#">주문등록</a></li>
-                <li><a href="#">주문목록조회</a></li>
-                <li><a href="#">점포별주문현황</a></li>
-                <li><a href="#">제품코드조회</a></li>
+                <li><a href="register.jsp">주문등록</a></li>
+                <li><a href="ShopOrderList.jsp">주문목록조회</a></li>
+                <li><a href="shopOrderSummary.jsp">점포별주문현황</a></li>
+                <li><a href="productcode.jsp">제품코드조회</a></li>
                 <li><a href="#">홈으로</a></li>
             </ul>
         </nav>
