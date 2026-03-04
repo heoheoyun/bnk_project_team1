@@ -3,6 +3,8 @@
 	<name>bnk_project_team1</name>
 	<comment></comment>
 	<projects>
+		<project>bnk_team1</project>
+		<project>Servers</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
