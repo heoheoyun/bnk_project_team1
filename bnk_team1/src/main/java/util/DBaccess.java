@@ -18,6 +18,7 @@ public class DBaccess {
 			conn = DriverManager.getConnection(props.getProperty("url"), props.getProperty("db.user"), props.getProperty("db.pw"));
 		
 		} catch (Exception e) {
+			System.out.println(e);
 			System.out.println("DB 접속하는데 에러났어요");
 		}
 		return conn;
