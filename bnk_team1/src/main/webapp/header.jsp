@@ -14,7 +14,7 @@
             <ul>
                 <li><a href="#">주문등록</a></li>
                 <li><a href="#">주문목록조회</a></li>
-                <li><a href="#">점포별주문현황</a></li>
+                <li><a href="/bnk_team1/shopOrderSummary">점포별주문현황</a></li>
                 <li><a href="#">제품코드조회</a></li>
                 <li><a href="#">홈으로</a></li>
             </ul>
